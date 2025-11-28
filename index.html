@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <div class="first-container">
+            <div class="timer-container">
+                <span id="timer-text">12:00</span>
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <h1 id="home-text">HOME</h1>
+                <div class="score-container">
+                    <span id="home-score">0</span>
+                </div>
+                <div class="button-container">
+                    <button class="add-btn" data-team="home" data-points="1">
+                        +1
+                    </button>
+                    <button class="add-btn" data-team="home" data-points="2">
+                        +2
+                    </button>
+                    <button class="add-btn" data-team="home" data-points="3">
+                        +3
+                    </button>
+                </div>
+            </div>
+            <div>
+                <h1 id="guest-text">GUEST</h1>
+                <div class="score-container">
+                    <span id="guest-score">0</span>
+                </div>
+                <div class="button-container">
+                    <button class="add-btn" data-team="guest" data-points="1">
+                        +1
+                    </button>
+                    <button class="add-btn" data-team="guest" data-points="2">
+                        +2
+                    </button>
+                    <button class="add-btn" data-team="guest" data-points="3">
+                        +3
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="playback-container">
+            <button id="pause-game-btn">PAUSE GAME</button>
+            <button id="start-game-btn">START GAME</button>
+        </div>
+        <div id="new-game-container">
+            <button id="new-game-btn">NEW GAME</button>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

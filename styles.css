@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    background-color: 1B244A;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 38px;
+}
+
+.extra-container {
+    display: flex;
+    justify-content: center;
+}
+
+.timer-container {
+    margin-top: 50px;
+    width: 400px;
+    height: 130px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+    color: rgb(238, 218, 159);
+    margin-bottom: 0px;
+    justify-self: center;
+}
+
+#timer-text {
+    font-family: Cursed Timer ULiL, sans-serif;
+    font-size: 95px;
+    margin: auto;
+    margin-top: 18px;
+}
+
+.add-btn {
+    font-family: Cursed Timer ULiL, sans-serif;
+    color: 9AABD8;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 3px;
+    border-color: 9AABD8;
+    border-radius: 5px;
+    padding: 14px 11px;
+    font-size: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: 9AABD8;
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.add-btn:active {
+    cursor: grabbing;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: auto;
+}
+
+.score-container {
+    margin-top: 10px;
+    width: 180px;
+    height: 130px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+}
+
+#home-text,
+#guest-text {
+    font-family: Verdana, sans-serif;
+    color: white;
+    font-size: 26px;
+}
+
+#guest-score,
+#home-score {
+    color: F94F6D;
+    font-family: Cursed Timer ULiL, sans-serif;
+    font-size: 95px;
+    margin: auto;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    justify-self: center;
+}
+
+.playback-container {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-self: center;
+    justify-self: center;
+}
+
+#pause-game-btn {
+    font-family: Verdana, sans-serif;
+    padding: 22px 35px;
+    margin-top: 30px;
+    background-color: rgb(208, 76, 76);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.1s linear, transform 0.3s ease;
+    color: white;
+}
+
+#pause-game-btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#pause-game-btn:active {
+    background-color: red;
+}
+
+#start-game-btn {
+    font-family: Verdana, sans-serif;
+    padding: 22px 30px;
+    margin-top: 30px;
+    background-color: rgb(70, 118, 70);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.1s linear, transform 0.3s ease;
+    color: white;
+}
+
+#start-game-btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#start-game-btn:active {
+    background-color: green;
+}
+
+#new-game-container {
+    display: flex;
+    justify-content: center;
+}
+
+#new-game-btn {
+    background-color: rgb(201, 196, 141);
+    width: 400px;
+    margin-top: 15px;
+    padding: 22px 35px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background-color 0.1s linear, transform 0.3s ease;
+    color: white;
+}
+
+#new-game-btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#new-game-btn:active {
+    background-color: rgb(240, 219, 53);
+}
